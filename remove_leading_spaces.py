@@ -1,6 +1,6 @@
 # Inducil, Raphael Clouiee A.
 # 3-28-25
-# batch 6, remove the space characters at the beginning of the string without using lstrip()
+# batch 6, prog01: remove the space characters at the beginning of the string without using lstrip()
 
 # ask user to input a string with leading spaces
 
