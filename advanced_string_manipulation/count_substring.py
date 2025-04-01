@@ -5,10 +5,35 @@
 # without using count() function.
 
 # ask the user to enter a string
+
+input_string = input("Enter a string: ")
+
 # ask the user to enter the substring to count
+
+substring = input("Enter the substring to count: ")
+
 # initialize a counter variable to zero
+
+count = 0
+
 # get the length of the substring
+
+substring_length = len(substring)
+
 # loop through the string while checking each position for a match
-# if a match is found, increment the counter
+
+for i in range(len(input_string) - substring_length + 1):
+    
+    # check if the substring matches the portion of the string
+    
+    if input_string[i:i + substring_length] == substring:
+        
+        # if a match is found, increment the counter
+        
+        count += 1
+
 # print the total count of occurrences
+
+print("The substring appears", count, "times in the string.")
+
 # end
